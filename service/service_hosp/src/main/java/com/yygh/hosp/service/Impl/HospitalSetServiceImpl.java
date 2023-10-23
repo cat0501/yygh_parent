@@ -1,4 +1,4 @@
-package com.yygh.hosp.service.impl;
+package com.yygh.hosp.service.Impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.yygh.hosp.mapper.HospitalSetMapper;
@@ -8,4 +8,5 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class HospitalSetServiceImpl extends ServiceImpl<HospitalSetMapper, HospitalSet> implements HospitalSetService {
+
 }
